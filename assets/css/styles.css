@@ -23,3 +23,31 @@ header.header img {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.bi-github{
+    color: darkgrey; 
+    font-size:3em ;
+}
+
+.bi-facebook{
+    color:blue; 
+    font-size:3em ;
+}
+.bi-linkedin{
+    color: #000080; 
+    font-size:3em ;
+}
+
+.bi-whatsapp {
+    color: #32CD32;
+    font-size: 3em;
+}
+
+.bi-whatsapp:hover,.bi-linkedin:hover,.bi-github:hover,.bi-facebook:hover {
+    font-size: 3.1em;
+    transition: all;
+}
+
+.down{
+    width: max-content;
+}
