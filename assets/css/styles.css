@@ -8,9 +8,11 @@ header.header {
     display: flex;
     align-items: center;
     height: 200px;
-    background-position: top center;
-    background-image: url(../image/fond.jpg);
-    background-size: cover;
+    background-position: 80% 50%;
+    padding-left: 50px;
+    background-image: url(../image/padlock_background/g12.png);
+    background-color: rgb(238, 206, 255);
+    background-size: 100px;
     background-repeat: no-repeat;
 }
 
@@ -44,10 +46,54 @@ header.header img {
 }
 
 .bi-whatsapp:hover,.bi-linkedin:hover,.bi-github:hover,.bi-facebook:hover {
-    font-size: 3.1em;
+    display: block;
+    transform: scale(1.1);
     transition: all;
 }
 
 .down{
     width: max-content;
 }
+
+  #mywork-bg{
+    background-image: 3em;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+  }
+
+  #status-bg {
+    left: 0;
+    top: 525px;
+    overflow: hidden;
+    background-image: url('assets/image/cosmos_f');
+    background-size: 50% 50%;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  .navbar {
+    background-color: #f5e6ff;
+  }
+
+  .down {
+    background-color: rgb(190, 130, 215);
+    border-color: plum;
+    color: white;
+  }
+
+  .down:hover{
+    background-color: rgb(190, 130, 215);
+    border-color: plum;
+    color: #fff; /* set the text color to white */
+    transform: scale(1.05);
+    color: white;
+  }
+ 
+  .down:active {
+    background-color: rgb(190, 130, 215)!important;
+    border-color: plum;
+    color: #fff; /* set the text color to white */
+    color: white;
+  }

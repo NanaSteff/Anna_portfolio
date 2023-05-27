@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\pagestyle{empty}
+\definecolor{myplum}{RGB}{221,160,221}
+\begin{document}
+	\begin{tikzpicture}[background rectangle/.style={fill=myplum}]
+		\draw[line width=5pt] (0,0) rectangle (6,-4);
+		\draw[line width=5pt] (0.5,0) -- (0.5,1); 
+		\draw[line width=5pt] (5.5,0) -- (5.5,1); 
+		\draw[line width=5pt] (0.5,1) arc (180:0:2.5);
+		\draw[line width=5pt] (2.5,-2) -- (2.5,-3) -- (3.5,-3) -- (3.5,-2);
+		\draw[line width=5pt] (2.5,-2) arc (180:0:0.5);
+	\end{tikzpicture}
+\end{document}
