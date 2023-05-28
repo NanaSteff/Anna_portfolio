@@ -45,6 +45,21 @@ header.header img {
     font-size: 3em;
 }
 
+.bi-code-slash{
+  color: #000080; 
+    font-size:3em ;
+}
+
+.bi-laptop{
+  color: #000080; 
+    font-size:3em ;
+}
+
+.bi-translate{
+  color: #000080; 
+    font-size:3em ;
+}
+
 .bi-whatsapp:hover,.bi-linkedin:hover,.bi-github:hover,.bi-facebook:hover {
     display: block;
     transform: scale(1.1);
@@ -62,16 +77,7 @@ header.header img {
     opacity: 0.8;
   }
 
-  #status-bg {
-    left: 0;
-    top: 525px;
-    overflow: hidden;
-    background-image: url('assets/image/cosmos_f');
-    background-size: 50% 50%;
-    background-position: center;
-    opacity: 0.3;
-    z-index: -1;
-  }
+  
 
   .navbar {
     background-color: #f5e6ff;
@@ -97,3 +103,34 @@ header.header img {
     color: #fff; /* set the text color to white */
     color: white;
   }
+
+
+#status{
+  height: 100%;
+}
+
+  #status-bg{
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-image : url(../image/cosmos_f.jpg);
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0.15;
+    backface-visibility: hidden;
+  }
+
+
+#status-content{
+  position: relative;
+  top: -100%;
+  right: 0;
+  z-index: 1;
+}
+
+.fs-4{
+  color: purple;
+  font-size: 1.2em;
+}
