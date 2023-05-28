@@ -1,3 +1,6 @@
+:root{
+  --linkedin : #000080
+}
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +39,7 @@ header.header img {
     font-size:3em ;
 }
 .bi-linkedin{
-    color: #000080; 
+    color: var(--linkedin); 
     font-size:3em ;
 }
 
@@ -46,17 +49,17 @@ header.header img {
 }
 
 .bi-code-slash{
-  color: #000080; 
+  color: purple; 
     font-size:3em ;
 }
 
 .bi-laptop{
-  color: #000080; 
-    font-size:3em ;
+  color: purple;    
+  font-size:3em ;
 }
 
 .bi-translate{
-  color: #000080; 
+  color: purple; 
     font-size:3em ;
 }
 
@@ -118,7 +121,7 @@ header.header img {
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
-    opacity: 0.15;
+    opacity: 0.09;
     backface-visibility: hidden;
   }
 
